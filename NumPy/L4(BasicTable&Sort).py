@@ -1,6 +1,6 @@
 import numpy as np
 
-dtypes=[('name','S10'),('grad_yr',int),('cgpa',float)] # Table Headings
+dtypes=[('name','S10'),('grad_yr',int),('cgpa',float)] # Table Headings. 'S10' signifies string type with length 10 characters
 values=[('Delno',2027,7.0),('Austine',2027,8.5),('Elvin',2028,6.6)] # Table Values
 arr=np.array(values,dtype=dtypes) # Table Creation
 
