@@ -1,3 +1,5 @@
+'''Gaussian array is a small matrix created using Gaussian function.'''
+
 import numpy as np
 
 def gaussian_filter(kernel_size,sigma=1,muu=0): # sigma is standard deviation and muu is mean 
