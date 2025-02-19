@@ -1,4 +1,5 @@
-'''Gaussian array is a small matrix created using Gaussian function.'''
+'''Gaussian array is a small matrix created using Gaussian function.
+   Gaussian filters and arrays are used for image processing and data smoothing.'''
 
 import numpy as np
 
