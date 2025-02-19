@@ -1,5 +1,6 @@
 '''Gaussian array is a small matrix created using Gaussian function.
-   Gaussian filters and arrays are used for image processing and data smoothing.'''
+   Gaussian filters and arrays are used for image processing and data smoothing.
+   G(x,y)=(e^-((x^2+y^2)/2*sigma**2))/2*pi*sigma**2'''
 
 import numpy as np
 
@@ -11,7 +12,7 @@ def gaussian_filter(kernel_size,sigma=1,muu=0): # sigma is standard deviation an
 
     normal=1/(2*np.pi*sigma**2) 
 
-    dst=(X**2+Y**2)/(2*sigma**2)
+    dst=((X-muu)**2+(Y-muu)**2)/(2*sigma**2)
 
     gauss=normal*np.exp(-1*dst) 
 
