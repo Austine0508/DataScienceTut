@@ -8,3 +8,9 @@ print("Horizontal Stacking:\n",h_arr)
 
 v_arr=np.vstack((a1,a2))
 print("Vertical Stacking:\n",v_arr)
+
+h_concat=np.concatenate((a2,a1),axis=1)
+print("Concatenation Horizontal:\n",h_concat)
+
+v_concat=np.concatenate((a2,a1),axis=0)
+print("Concatenation Vertical:\n",v_concat)
