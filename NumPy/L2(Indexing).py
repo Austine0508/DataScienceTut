@@ -19,3 +19,5 @@ indices=np.array([0,1])
 print(a1[indices])
 cond=a1>0
 print(a1[cond])
+
+# negative indexing can also be used. Eg: -1 (accesses last element),-2 etc
