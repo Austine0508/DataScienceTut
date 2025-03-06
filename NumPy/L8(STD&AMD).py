@@ -4,7 +4,7 @@ a=np.array([1,2,3,8,9,10])
 
 # Calculate AMD (Absolute Mean Deviation)
 print("Array: ",a)
-d=np.mean(a)
+d=np.mean(a) # this is the mean of data
 print("Mean: ",d)
 deviation=a-d
 print("Deviation: ",deviation)
