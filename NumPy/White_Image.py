@@ -1,3 +1,4 @@
+# This program simply creates a white window. Helps to understand numpy in the use of images and data manipulation
 import cv2
 import numpy as np
 
