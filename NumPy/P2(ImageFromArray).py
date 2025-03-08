@@ -15,3 +15,7 @@ data=im.fromarray(arr)
 
 data.save('mypic.png')
 # Above line saves PIL objects in desired format
+
+# Similarly Arrays can be converted into RGB as well. But color channel needs to be speccified in reshape.
+# Eg: (100,100,3)
+
