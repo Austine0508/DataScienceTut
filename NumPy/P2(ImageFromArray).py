@@ -19,3 +19,4 @@ data.save('mypic.png')
 # Similarly Arrays can be converted into RGB as well. But color channel needs to be speccified in reshape.
 # Eg: (100,100,3)
 
+# Images can also be converted into arrays
